@@ -549,7 +549,7 @@ function createConfig(options, entry, format, writeMeta) {
 					}),
 					json(),
 					smartAsset({
-						url: 'copy',
+						url: 'inline',
 						useHash: true,
 						keepName: true,
 						keepImport: true,
